@@ -16,15 +16,8 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.yellow[900],
         ),
         body: Center(
-          child: Text(
-            "Testing hot reload",
-            style: TextStyle(
-              fontSize: 15.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-              color: Colors.black,
-              fontFamily: 'OrelegaOne',
-            ),
+          child: Image(
+            image: AssetImage("assets/sakura.webp")
           ),
         ),
         floatingActionButton: FloatingActionButton(
