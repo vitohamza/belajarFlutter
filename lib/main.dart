@@ -16,8 +16,30 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.yellow[900],
         ),
         body: Center(
-          child: Image(
-            image: AssetImage("assets/sakura.webp")
+          // child: Image(
+          //   image: AssetImage("assets/sakura.webp")
+          // ),
+          // child: Icon(
+          //   Icons.airport_shuttle,
+          //   color: Colors.lightBlue,
+          //   size: 150.0,
+          // ),
+          // child: RaisedButton.icon(
+          //   onPressed: () {
+          //     print('clicked');
+          //   },
+          //   icon: Icon(
+          //     Icons.mail
+          //   ),
+          //   label: Text('click'),
+          //   color: Colors.lightGreenAccent,
+          // ),
+          child: IconButton(
+            onPressed: () {
+              print('you clicked me!');
+            },
+            icon: Icon(Icons.alternate_email),
+            color: Colors.amber,
           ),
         ),
         floatingActionButton: FloatingActionButton(
