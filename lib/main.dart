@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.yellow[900],
         ),
-        body: Center(
+        // body: Center(
           // child: Image(
           //   image: AssetImage("assets/sakura.webp")
           // ),
@@ -34,13 +34,20 @@ class Home extends StatelessWidget {
           //   label: Text('click'),
           //   color: Colors.lightGreenAccent,
           // ),
-          child: IconButton(
-            onPressed: () {
-              print('you clicked me!');
-            },
-            icon: Icon(Icons.alternate_email),
-            color: Colors.amber,
-          ),
+        //   child: IconButton(
+        //     onPressed: () {
+        //       print('you clicked me!');
+        //     },
+        //     icon: Icon(Icons.alternate_email),
+        //     color: Colors.amber,
+        //   ),
+        // ),
+        body: Container(
+          padding: EdgeInsets.symmetric(horizontal: 15,
+              vertical:  10),
+          margin: EdgeInsets.all(50),
+          color: Colors.red,
+          child: Text('hellow!!'),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
